@@ -1,6 +1,6 @@
 # Contexto de marketing — Ferretería El Maestro (Mariquita, Tolima)
 
-**Versión del documento:** v3
+**Versión del documento:** v4
 **Última actualización:** 2026-11-11
 
 > Las líneas marcadas con **[POR CONFIRMAR]** son suposiciones o datos que faltan. Corregirlas mejora todo lo que escriban las demás habilidades.
@@ -56,7 +56,11 @@
 **Tensión emocional:** El maestro responde ante su cliente por los tiempos; la familia teme gastar de más o que la obra quede mal.
 
 ## Competencia
-**Directa:** Ferreterías y depósitos de materiales ya conocidos en Mariquita — [POR CONFIRMAR: nombres y en qué fallan]
+**Directa (datos de Google, 2026-11-11):**
+- Centro Ferretero — Cra. 3 # 7-30 — 4,4 ★ (195 opiniones). Reseña destacada: "Buenos precios, buen servicio"
+- Ferretería Guali — Cl. 7 # 5-120 — 4,3 ★ (116 opiniones). Reseña destacada: "Excelente atención, precios bajos en los productos"
+- [POR CONFIRMAR: en qué fallan, según los clientes]
+**Nuestra posición en Google:** Ferretería El Maestro aparece de primera al buscar "ferreteria" en Mariquita, con 5,0 ★ y 21 opiniones. Tenemos la mejor calificación pero muchas menos opiniones que la competencia.
 **Secundaria:** Ferreterías de municipios vecinos o de Ibagué — hay que viajar y pagar el flete
 **Indirecta:** Grandes superficies (Homecenter, etc.) — lejos, y no conocen al cliente
 
@@ -116,13 +120,16 @@
 
 ## Pruebas de confianza
 **Datos:** Dueño de familia ferretera [POR CONFIRMAR: ¿cuántos años lleva la familia en el negocio?]
-**Testimonios:** [POR CONFIRMAR: pedir a los primeros maestros y clientes una opinión o reseña en Google/Facebook]
+**Calificación en Google:** 5,0 ★ con 21 opiniones (noviembre 2026)
+**Testimonios:**
+> "Excelente servicio, encontré todas las herramientas que buscaba." — Cliente en Google
+**Marca visual:** aviso naranja con un muñeco de maestro (mascota). Usarlo en redes y piezas.
 
 ## Objetivos
 **Objetivo del negocio:** Darse a conocer en Mariquita. Mucha gente todavía no sabe que la ferretería existe. Prioridad: conseguir más maestros de obra y más clientes de hogar.
 **Acción que queremos:** Que escriban al WhatsApp 322 743 1738 o que vengan a la Carrera 6 # 7-72.
 **Redes:** Facebook e Instagram [POR CONFIRMAR: nombres de usuario y número de seguidores]
-**¿Perfil de Google (Google Maps)?** [POR CONFIRMAR]
+**Perfil de Google:** activo, con WhatsApp y teléfono. Categoría actual: "Tienda de herramientas" (cambiar a "Ferretería"). El horario publicado entre semana dice 7:30 a. m. (revisar: el real es 7:45 a. m.).
 
 ## Aprendizajes
 *Decisiones y lecciones probadas. Lo más nuevo primero.*
@@ -131,6 +138,7 @@
 | 2026-11-11 | No se ofrece crédito; no mencionar "fiado" ni "crédito" en piezas de marketing | Decisión del dueño | Todo | active |
 
 ## Historial de cambios
+- v4 (2026-11-11) — Agregados datos del perfil de Google (5,0 ★, 21 opiniones), competidores directos con sus calificaciones, un testimonio y la mascota del aviso.
 - v3 (2026-11-11) — Agregados horario, WhatsApp, medios de pago, domicilio y política sin crédito; diferenciación (compra ágil, precio y calidad de familia ferretera); objetivo principal: darse a conocer en Mariquita entre maestros y hogares.
 - v2 (2026-11-11) — Agregados el nombre (Ferretería El Maestro) y la dirección; el nombre se suma como diferenciador.
 - v1 (2026-11-11) — Contexto inicial: ubicación, clientes principales, productos más vendidos y redes.

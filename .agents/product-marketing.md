@@ -1,18 +1,19 @@
-# Contexto de marketing — Ferretería (Mariquita, Tolima)
+# Contexto de marketing — Ferretería El Maestro (Mariquita, Tolima)
 
-**Versión del documento:** v1
+**Versión del documento:** v2
 **Última actualización:** 2026-11-11
 
 > Las líneas marcadas con **[POR CONFIRMAR]** son suposiciones o datos que faltan. Corregirlas mejora todo lo que escriban las demás habilidades.
 
 ## Resumen del negocio
-**En una línea:** Ferretería en Mariquita, Tolima, que surte materiales de construcción y productos para el hogar a maestros de obra, ornamentadores, carpinteros y familias.
+**En una línea:** Ferretería El Maestro, en Mariquita, Tolima, que surte materiales de construcción y productos para el hogar a maestros de obra, ornamentadores, carpinteros y familias.
 **Qué hace:** Vende materiales de obra gruesa (cemento, varilla, ladrillo, teja) y productos de uso diario (pinturas, cloro y aseo, herramientas). Atiende tanto al profesional que compra en cantidad como al dueño de casa que hace un arreglo.
 **Categoría (cómo la buscan):** "ferretería en Mariquita", "depósito de materiales", "materiales de construcción Mariquita".
 **Tipo de negocio:** Tienda física local, con presencia en Facebook e Instagram.
 **Modelo de negocio:** Venta al detal y por cantidad. [POR CONFIRMAR: ¿domicilios? ¿crédito a maestros o clientes frecuentes? ¿medios de pago: Nequi, Daviplata, tarjeta?]
-**Nombre del negocio:** [POR CONFIRMAR]
-**Dirección y horario:** [POR CONFIRMAR]
+**Nombre del negocio:** Ferretería El Maestro
+**Dirección:** Carrera 6 # 7-72, Mariquita, Tolima
+**Horario:** [POR CONFIRMAR]
 
 ## Público objetivo
 **Zona:** Mariquita y alrededores. [POR CONFIRMAR: ¿también veredas o municipios cercanos como Fresno, Honda, Armero-Guayabal, Falan?]
@@ -57,6 +58,7 @@
 [POR CONFIRMAR — es la parte más importante. Ideas a validar:]
 - Surtido completo de obra gruesa y de hogar en un solo lugar
 - Atención y asesoría personal: conocemos a los maestros y a las familias del pueblo
+- El nombre "El Maestro" habla directo a nuestro cliente principal (el maestro de obra) y transmite experiencia y conocimiento del oficio
 - [¿Domicilio de material pesado?]
 - [¿Precios por cantidad o crédito para maestros?]
 - [¿Años en el mercado?]
@@ -117,4 +119,5 @@
 | | | | | |
 
 ## Historial de cambios
+- v2 (2026-11-11) — Agregados el nombre (Ferretería El Maestro) y la dirección; el nombre se suma como diferenciador.
 - v1 (2026-11-11) — Contexto inicial: ubicación, clientes principales, productos más vendidos y redes.

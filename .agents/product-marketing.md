@@ -1,6 +1,6 @@
 # Contexto de marketing — Ferretería El Maestro (Mariquita, Tolima)
 
-**Versión del documento:** v4
+**Versión del documento:** v5
 **Última actualización:** 2026-11-11
 
 > Las líneas marcadas con **[POR CONFIRMAR]** son suposiciones o datos que faltan. Corregirlas mejora todo lo que escriban las demás habilidades.
@@ -10,6 +10,7 @@
 **Qué hace:** Vende materiales de obra gruesa (cemento, varilla, ladrillo, teja) y productos de uso diario (pinturas, cloro y aseo, herramientas). Atiende tanto al profesional que compra en cantidad como al dueño de casa que hace un arreglo. Lleva el material a domicilio.
 **Categoría (cómo la buscan):** "ferretería en Mariquita", "depósito de materiales", "materiales de construcción Mariquita".
 **Tipo de negocio:** Tienda física local, nueva ("emergente"), con Facebook e Instagram.
+**Equipo:** 5 personas en total (incluido el dueño).
 **Modelo de negocio:** Venta al detal y por cantidad, de contado. Con domicilio. No da crédito.
 **Nombre del negocio:** Ferretería El Maestro
 **Dirección:** Carrera 6 # 7-72, Mariquita, Tolima
@@ -138,6 +139,7 @@
 | 2026-11-11 | No se ofrece crédito; no mencionar "fiado" ni "crédito" en piezas de marketing | Decisión del dueño | Todo | active |
 
 ## Historial de cambios
+- v5 (2026-11-11) — Agregado el tamaño del equipo (5 personas).
 - v4 (2026-11-11) — Agregados datos del perfil de Google (5,0 ★, 21 opiniones), competidores directos con sus calificaciones, un testimonio y la mascota del aviso.
 - v3 (2026-11-11) — Agregados horario, WhatsApp, medios de pago, domicilio y política sin crédito; diferenciación (compra ágil, precio y calidad de familia ferretera); objetivo principal: darse a conocer en Mariquita entre maestros y hogares.
 - v2 (2026-11-11) — Agregados el nombre (Ferretería El Maestro) y la dirección; el nombre se suma como diferenciador.

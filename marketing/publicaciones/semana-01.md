@@ -11,19 +11,52 @@
 
 ---
 
-## Lunes 16 · Quiénes somos (fíjala arriba en el perfil)
+## Lunes 16 · Video de presentación: conozca al equipo (fíjalo arriba en el perfil)
 
-**Foto:** la fachada con el aviso del muñeco, o tú detrás del mostrador.
+**Formato:** Reel vertical de 45 a 60 segundos. Graba con el celular en vertical, con el local abierto y bien iluminado. Usa el sonido original (tu voz) y pon una música suave de fondo, a bajo volumen.
 
-> Somos Ferretería El Maestro, en la Carrera 6 # 7-72 de Mariquita.
+### Tomas, en orden
+
+| Segundos | Qué se ve | Qué se dice (en voz alta o con texto en pantalla) |
+|----------|-----------|---------------------------------------------------|
+| 0 a 3 | Tú, frente a la fachada con el aviso del muñeco, saludando | "¡Buenas, Mariquita! Somos Ferretería El Maestro y le queremos presentar al equipo." |
+| 3 a 10 | Entras caminando al local; la cámara recorre los estantes | "Venimos de familia ferretera y aquí encuentra todo para la obra y para la casa." |
+| 10 a 35 | Cada uno de los 5 aparece en su puesto, mira a la cámara y saluda (unos 5 segundos cada uno) | Cada persona dice su nombre y lo que hace. Ver ejemplos abajo. |
+| 35 a 45 | Tomas rápidas: bultos de cemento, varilla, teja, ladrillo, pinturas y el domicilio cargando | "Cemento, varilla, teja, ladrillo, pinturas, cloro y herramientas. Y si lo necesita, se lo llevamos." |
+| 45 a 55 | Los 5 juntos frente al mostrador o la fachada, saludando | Todos: "¡Lo esperamos en Ferretería El Maestro!" |
+| Final | Texto en pantalla | Cra. 6 # 7-72, Mariquita · WhatsApp 322 743 1738 · Abrimos también el domingo |
+
+### Ejemplos de lo que dice cada persona (cambia nombres y cargos)
+
+- "Soy ______, el dueño. Me crié entre ferreterías."
+- "Soy ______ y lo atiendo en el mostrador."
+- "Soy ______, el que le lleva el material hasta la obra."
+- "Soy ______ y le ayudo con las pinturas."
+- "Soy ______ y estoy pendiente de la bodega."
+
+Que cada uno lo diga con sus palabras. Se ve más natural que leerlo.
+
+### Consejos para grabar
+- Graba cada toma por separado. Si alguien se equivoca, se repite solo esa parte.
+- Hazlo temprano o en un momento con pocos clientes, para que no haya ruido.
+- Pon subtítulos (Instagram y CapCut los generan solos). Mucha gente ve los videos sin sonido.
+- La primera toma es la más importante: que se vea el aviso y que el saludo sea con energía.
+- Si alguien del equipo no quiere salir hablando, que solo salude con la mano.
+
+### Texto de la publicación
+
+> Le presentamos al equipo de Ferretería El Maestro. Somos 5 personas y estamos en la Carrera 6 # 7-72 de Mariquita.
 >
-> Venimos de familia ferretera, y eso se nota en los precios y en la calidad de lo que vendemos. Aquí encuentra cemento, varilla, teja, ladrillo, pinturas, cloro y herramientas para la obra o para la casa.
->
-> Atendemos rápido para que usted no pierda tiempo, y si lo necesita, le llevamos el material a la obra o a la casa.
+> Venimos de familia ferretera y aquí encuentra cemento, varilla, teja, ladrillo, pinturas, cloro y herramientas para la obra o para la casa. Atendemos rápido y, si lo necesita, le llevamos el material.
 >
 > Abrimos de lunes a viernes de 7:45 a. m. a 5:45 p. m., los sábados de 8:00 a. m. a 4:30 p. m. y los domingos de 9:00 a. m. a 1:00 p. m.
 >
 > Cotice por WhatsApp al 322 743 1738. Pague por Nequi, Davivienda o Bre-B.
+
+**Después de publicarlo:**
+- Fíjalo arriba en Facebook e Instagram.
+- Pide a los 5 del equipo que lo compartan en su Facebook y en su Estado de WhatsApp. Así llega a sus familias y conocidos del pueblo.
+- Súbelo también a tu perfil de Google (en Fotos → Video).
 
 ---
 

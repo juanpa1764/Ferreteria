@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ferretería El Maestro</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Ferretería El Maestro en Mariquita, Tolima: materiales de construcción, plomería, eléctricos, pinturas y herramientas. Cotice por WhatsApp y le llevamos el domicilio.">
+<meta name="theme-color" content="#197DDB">
+<meta property="og:title" content="Ferretería El Maestro · Mariquita, Tolima">
+<meta property="og:description" content="Todo para construir y reparar en Mariquita. Cotice por WhatsApp.">
+<meta property="og:image" content="logo.webp">
+<link rel="icon" href="icono.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;1,800;1,900&display=swap">
+
+<!-- Ficha para Google (negocio local). Complete los datos entre corchetes
+     y que coincidan EXACTAMENTE con su perfil de Google Business. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HardwareStore",
+  "name": "Ferretería El Maestro",
+  "image": "logo.webp",
+  "telephone": "+57 [NÚMERO]",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "[DIRECCIÓN]",
+    "addressLocality": "Mariquita",
+    "addressRegion": "Tolima",
+    "addressCountry": "CO"
+  },
+  "areaServed": "Mariquita y veredas cercanas",
+  "openingHours": ["Mo-Sa [HH:MM]-[HH:MM]", "Su [HH:MM]-[HH:MM]"],
+  "sameAs": ["[ENLACE A SU PERFIL DE GOOGLE BUSINESS]"]
+}
+</script>
+
+<style>
+/* Diseño: celular primero, una columna que se abre a 2–4 en pantallas grandes.
+   Colores y letra de la guía de marca de El Maestro (publicación ejemplo). */
+:root{
+  --azul:#197DDB;        /* azul marca: fondos grandes */
+  --azul-osc:#4068B0;    /* azul marca oscuro: texto y botón llamar */
+  --naranja:#F58634;     /* naranja logo: acentos */
+  --naranja-v:#FE7501;   /* naranja vivo: botón principal */
+  --tinta:#201E1E;       /* negro marca */
+  --fondo:#FFFFFF;
+  --suave:#F3F3F3;
+  --linea:#E2E2E2;
+  --texto-2:#4A4646;
+  --sobre-azul:#FFFFFF;
+  --wa:#25D366;
+  --wa-tinta:#08301A;
+  --display:"Montserrat", "Arial Black", Arial, sans-serif;
+  --cuerpo:"Montserrat", "Segoe UI", Roboto, Arial, sans-serif;
+  --radio:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --azul:#1A6FC4; --azul-osc:#8DB4F5; --naranja:#FF9A50; --naranja-v:#FE7501;
+    --tinta:#F3F1EF; --fondo:#181616; --suave:#252222; --linea:#363232; --texto-2:#C9C4C1;
+    --sobre-azul:#FFFFFF; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --azul:#1A6FC4; --azul-osc:#8DB4F5; --naranja:#FF9A50; --naranja-v:#FE7501;
+  --tinta:#F3F1EF; --fondo:#181616; --suave:#252222; --linea:#363232; --texto-2:#C9C4C1;
+  --sobre-azul:#FFFFFF; color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--fondo);color:var(--tinta);font-family:var(--cuerpo);font-weight:500;font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--azul-osc)}
+:focus-visible{outline:3px solid var(--naranja);outline-offset:3px;border-radius:6px}
+
+.envoltura{max-width:1120px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+section{padding-block:56px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+h2{font-size:clamp(28px,6vw,40px);font-weight:900;font-style:italic;line-height:1.05;letter-spacing:-.5px;text-transform:uppercase}
+.antetitulo{display:inline-block;font-size:13px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--naranja-v);margin-bottom:10px}
+.intro{color:var(--texto-2);max-width:60ch;margin:12px 0 0}
+.cabeza-seccion{margin-bottom:28px}
+
+/* ---------- Botones ---------- */
+.botones{display:flex;flex-wrap:wrap;gap:12px}
+.boton{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:14px 22px;border-radius:12px;font-family:var(--display);font-weight:800;font-size:18px;text-decoration:none;border:0;cursor:pointer;flex:1 1 220px;transition:transform .15s ease, box-shadow .15s ease}
+.boton:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.boton svg{flex:none}
+.boton-wa{background:var(--naranja-v);color:#201E1E}
+.boton-llamar{background:#FFFFFF;color:#2E4F8F}
+.boton-borde{background:transparent;color:var(--tinta);border:2px solid var(--tinta)}
+@media (prefers-reduced-motion: reduce){.boton{transition:none}.boton:hover{transform:none}}
+
+/* ---------- Encabezado ---------- */
+.portada{background:var(--azul);color:var(--sobre-azul);margin-top:calc(-1 * env(safe-area-inset-top, 0px));padding-top:calc(env(safe-area-inset-top, 0px) + 20px);padding-bottom:0;overflow:hidden}
+.portada .logo-caja{background:#FFFFFF;border-radius:18px;padding:12px 16px;width:min(100%,300px);order:-1}
+.portada .logo-caja img{width:100%;height:auto;aspect-ratio:520/270}
+.portada-rejilla{display:grid;gap:8px;align-items:center;padding-bottom:36px}
+.ubic{display:inline-flex;align-items:center;gap:8px;background:rgba(0,0,0,.22);padding:6px 14px;border-radius:999px;font-weight:700;font-size:14px;margin-top:22px}
+.portada h1{font-size:clamp(40px,11vw,72px);font-weight:900;font-style:italic;line-height:.95;letter-spacing:-1px;text-transform:uppercase;margin-top:14px}
+.portada h1 span{color:#FFD9B8}
+.portada p.lema{font-size:19px;font-weight:700;max-width:34ch;margin:16px 0 24px}
+.franja{background:#201E1E;color:#FFFFFF}
+.franja ul{list-style:none;margin-block:0;padding-block:14px;display:flex;flex-wrap:wrap;gap:10px 28px;font-weight:700;font-size:15px}
+.franja li{display:flex;align-items:center;gap:8px}
+.franja svg{color:#F58634}
+@media (min-width:860px){
+  .portada-rejilla{gap:28px;grid-template-columns:1.25fr 1fr;padding-bottom:56px;padding-top:12px}
+  .portada .logo-caja{order:0;justify-self:end;width:100%;max-width:440px;padding:22px 26px}
+}
+
+/* ---------- Categorías ---------- */
+.rejilla-cat{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (min-width:720px){.rejilla-cat{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}}
+.cat{background:var(--suave);border-radius:var(--radio);padding:18px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.cat .icono{width:48px;height:48px;border-radius:12px;background:var(--azul);color:#FFFFFF;display:grid;place-items:center}
+.cat h3{font-size:18px;font-weight:800}
+.cat p{margin:0;font-size:14px;color:var(--texto-2);line-height:1.4}
+.nota-cat{margin:18px 0 0;font-weight:700}
+.nota-cat a{font-weight:800}
+
+/* ---------- Servicios ---------- */
+.servicios{background:var(--suave)}
+.lista-serv{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:640px){.lista-serv{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:980px){.lista-serv{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.serv{background:var(--fondo);border-radius:var(--radio);padding:18px;display:flex;gap:14px;align-items:flex-start;min-width:0}
+.serv svg{flex:none;color:var(--naranja-v);margin-top:2px}
+.serv h3{font-size:17px;font-weight:800;margin-bottom:4px}
+.serv p{margin:0;font-size:15px;color:var(--texto-2)}
+
+/* ---------- Marcas ---------- */
+.marcas ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.marcas li{font-family:var(--display);font-weight:900;font-style:italic;font-size:20px;letter-spacing:.5px;text-transform:uppercase;padding:12px 20px;border:2px solid var(--linea);border-radius:10px;color:var(--tinta)}
+
+/* ---------- Cotiza ---------- */
+.cotiza{background:#201E1E;color:#FFFFFF}
+.cotiza .antetitulo{color:#FF9A50}
+.cotiza .intro{color:#D4D0CD}
+.cotiza-rejilla{display:grid;gap:28px}
+@media (min-width:860px){.cotiza-rejilla{grid-template-columns:1fr 1fr;align-items:start}}
+.pasos{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:14px}
+.pasos li{display:flex;gap:14px;align-items:flex-start}
+.pasos b{flex:none;width:34px;height:34px;border-radius:50%;background:#F58634;color:#201E1E;display:grid;place-items:center;font-weight:900}
+.form{background:#2A2727;border-radius:18px;padding:20px;display:grid;gap:14px}
+.form label{font-weight:700;font-size:15px;display:block;margin-bottom:6px}
+.form input,.form textarea{width:100%;font:inherit;font-size:16px;color:#FFFFFF;background:#1A1818;border:2px solid #4A4545;border-radius:10px;padding:12px 14px}
+.form textarea{min-height:110px;resize:vertical}
+.form input::placeholder,.form textarea::placeholder{color:#9C9692}
+.form input:focus,.form textarea:focus{border-color:#F58634;outline:none}
+.form #aviso-form{margin:0;background:#1A1818;border-radius:10px;padding:12px;font-size:14px;white-space:pre-line;color:#FFD9B8}
+.form small{color:#BDB8B4;font-size:13px}
+
+/* ---------- Ubicación ---------- */
+.ubic-rejilla{display:grid;gap:20px}
+@media (min-width:860px){.ubic-rejilla{grid-template-columns:1.1fr 1fr}}
+.tarjeta{border:2px solid var(--linea);border-radius:18px;padding:22px;min-width:0}
+.tarjeta h3{font-size:20px;font-weight:800;margin-bottom:10px;display:flex;align-items:center;gap:10px}
+.tarjeta h3 svg{color:var(--naranja-v)}
+.direccion{font-size:20px;font-weight:800;margin:0}
+.referencia{margin:6px 0 18px;color:var(--texto-2)}
+.horario{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.horario th,.horario td{padding:10px 0;border-bottom:1px solid var(--linea);text-align:left}
+.horario td{text-align:right;font-weight:700}
+.horario tr.hoy th,.horario tr.hoy td{color:var(--azul-osc);font-weight:800}
+.mapa{display:flex;flex-direction:column;justify-content:flex-end;gap:12px;min-height:220px;background:
+  linear-gradient(0deg, rgba(25,125,219,.10), rgba(25,125,219,.10)),
+  repeating-linear-gradient(90deg, transparent 0 46px, var(--linea) 46px 48px),
+  repeating-linear-gradient(0deg, transparent 0 46px, var(--linea) 46px 48px);
+  background-color:var(--suave)}
+.mapa .pin{align-self:center;margin-bottom:auto;margin-top:10px;color:var(--naranja-v)}
+
+/* ---------- Confianza ---------- */
+.confianza{background:var(--suave)}
+.cifra{font-family:var(--display);font-size:clamp(56px,14vw,96px);font-weight:900;font-style:italic;color:var(--naranja-v);line-height:1}
+.confianza-rejilla{display:grid;gap:24px}
+@media (min-width:860px){.confianza-rejilla{grid-template-columns:1fr 1.4fr;align-items:center}}
+.fotos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.foto{aspect-ratio:4/3;border-radius:var(--radio);background:var(--fondo);border:2px dashed var(--linea);display:grid;place-items:center;text-align:center;padding:12px;color:var(--texto-2);font-size:14px;font-weight:700;max-width:100%}
+.foto.ancha{grid-column:1 / -1;aspect-ratio:16/7}
+.testimonios{display:grid;gap:12px;margin-top:28px}
+@media (min-width:720px){.testimonios{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.testimonio{margin:0;background:var(--fondo);border-radius:var(--radio);padding:20px}
+.testimonio blockquote{margin:0 0 10px;font-size:17px;font-weight:700}
+.testimonio figcaption{color:var(--texto-2);font-size:14px}
+
+/* ---------- Pie ---------- */
+footer{background:#201E1E;color:#D4D0CD;padding-block:36px 110px;font-size:15px}
+footer .envoltura{display:grid;gap:18px}
+footer strong{color:#FFFFFF;font-family:var(--display);font-size:20px;font-style:italic;font-weight:900;text-transform:uppercase}
+footer a{color:#FFB27A}
+footer .enlaces{display:flex;flex-wrap:wrap;gap:8px 20px}
+
+/* ---------- WhatsApp flotante ---------- */
+.wa-flotante{position:fixed;right:calc(16px + env(safe-area-inset-right, 0px));bottom:calc(16px + env(safe-area-inset-bottom, 0px));z-index:50;display:inline-flex;align-items:center;gap:10px;background:var(--wa);color:var(--wa-tinta);font-family:var(--display);font-weight:800;font-size:17px;text-decoration:none;padding:14px 20px 14px 16px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.28);min-height:56px}
+.wa-flotante:hover{filter:brightness(1.05)}
+</style>
+</head>
+<body>
+
+<!-- ===================== 1. ENCABEZADO ===================== -->
+<header class="portada">
+  <div class="envoltura portada-rejilla">
+    <div>
+      <span class="ubic">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        Mariquita, Tolima
+      </span>
+      <h1>Todo para construir y reparar <span>en Mariquita</span></h1>
+      <p class="lema">Escríbanos por WhatsApp, mándenos la foto de su lista y le cotizamos de una. Si necesita, se lo llevamos a la casa o a la obra.</p>
+      <div class="botones">
+        <a class="boton boton-wa js-wa" data-msg="Hola Maestro, quiero preguntar por un material." href="#cotiza">
+          <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.4Z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8a4 4 0 0 1-2.1-2.1l.8-1-1-2Z"/></svg>
+          Escribir por WhatsApp
+        </a>
+        <a class="boton boton-llamar js-tel" href="#ubicacion">
+          <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg>
+          Llamar <span class="js-tel-texto">[NÚMERO]</span>
+        </a>
+      </div>
+    </div>
+    <div class="logo-caja">
+      <img src="logo.webp" width="520" height="270" alt="Ferretería El Maestro" fetchpriority="high">
+    </div>
+  </div>
+  <div class="franja">
+    <ul class="envoltura">
+      <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>Domicilios en el pueblo y veredas</li>
+      <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Asesoría para su compra</li>
+      <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Cotizaciones sin costo</li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== 2. CATEGORÍAS ===================== -->
+<section id="productos">
+  <div class="envoltura">
+    <div class="cabeza-seccion">
+      <span class="antetitulo">Lo que encuentra aquí</span>
+      <h2>Aquí hay de todo</h2>
+      <p class="intro">Desde el bulto de cemento hasta el tornillo que le falta. Si no lo ve en la lista, pregúntenos: casi siempre lo tenemos o se lo conseguimos.</p>
+    </div>
+    <div class="rejilla-cat">
+      <article class="cat">
+        <span class="icono"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10h14v11M3 10h18M8 10V6h8v4M9 14h2M13 14h2M9 17h2M13 17h2"/></svg></span>
+        <h3>Construcción</h3><p>Cemento, varilla, bloque, arena, alambre, mallas</p>
+      </article>
+      <article class="cat">
+        <span class="icono"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6v6h6v6"/><path d="M14 16h4v4h-4zM2 4h2M10 2v2"/><path d="M16 22c0-1 .5-2 1-2.5"/></svg></span>
+        <h3>Plomería</h3><p>Tubería PVC, accesorios, grifería, sanitarios, tanques</p>
+      </article>
+      <article class="cat">
+        <span class="icono"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span>
+        <h3>Eléctricos</h3><p>Cable, tomas, interruptores, bombillos, breakers</p>
+      </article>
+      <article class="cat">
+        <span class="icono"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="16" height="6" rx="1.5"/><path d="M19 6h2v5h-9v3"/><rect x="10" y="14" width="4" height="8" rx="1"/></svg></span>
+        <h3>Pinturas</h3><p>Vinilos, esmaltes, impermeabilizantes, brochas y rodillos</p>
+      </article>
+      <article class="cat">
+        <span class="icono"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5 5L22 14l-3 3-2.3-2.3a4 4 0 0 0-5-5L9 7l3-3z"/><path d="m9 7-7 7 3 3 7-7"/></svg></span>
+        <h3>Herramientas</h3><p>Manuales y eléctricas: taladros, pulidoras, palas, palustres</p>
+      </article>
+      <article class="cat">
+        <span class="icono"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8l-1 4H9z"/><path d="M10 7v14M14 7v14M10 11l4-1.5M10 15l4-1.5M10 19l4-1.5"/></svg></span>
+        <h3>Tornillería</h3><p>Tornillos, puntillas, chazos, pernos, tuercas y arandelas</p>
+      </article>
+      <article class="cat">
+        <span class="icono"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V11"/><path d="M12 11C12 6 8 4 4 4c0 5 3 7 8 7Z"/><path d="M12 14c0-4 3-6 8-6 0 4-3 6-8 6Z"/></svg></span>
+        <h3>Agro y jardín</h3><p>Mangueras, machetes, fumigadoras, alambre de púas, polisombra</p>
+      </article>
+      <article class="cat">
+        <span class="icono"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="5"/><path d="m11.5 11.5 9-9M17 6l3 3M14 9l2 2"/></svg></span>
+        <h3>Cerrajería</h3><p>Candados, chapas, bisagras y duplicado de llaves</p>
+      </article>
+    </div>
+    <p class="nota-cat">¿Busca algo puntual? <a class="js-wa" data-msg="Hola Maestro, ¿tienen ...?" href="#cotiza">Pregúntenos por WhatsApp</a></p>
+  </div>
+</section>
+
+<!-- ===================== 3. SERVICIOS ===================== -->
+<!-- Borre los servicios que NO preste. -->
+<section class="servicios" id="servicios">
+  <div class="envoltura">
+    <div class="cabeza-seccion">
+      <span class="antetitulo">Más que vender</span>
+      <h2>Le ayudamos con su obra</h2>
+    </div>
+    <div class="lista-serv">
+      <div class="serv">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        <div><h3>Domicilios</h3><p>En el casco urbano de Mariquita y a las veredas cercanas. Pregunte por el costo a su vereda.</p></div>
+      </div>
+      <div class="serv">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2h6v4H9z"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2M8 12h8M8 16h5"/></svg>
+        <div><h3>Cotizaciones para obra</h3><p>Mándenos la lista o la foto del plano y le armamos la cotización completa.</p></div>
+      </div>
+      <div class="serv">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></svg>
+        <div><h3>Crédito a maestros y contratistas</h3><p>Para clientes conocidos que trabajan con nosotros. Venga y hablamos.</p></div>
+      </div>
+      <div class="serv">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12"/></svg>
+        <div><h3>Corte de tubos y vidrio</h3><p>Le entregamos la medida exacta que necesita.</p></div>
+      </div>
+      <div class="serv">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7C9 6.5 6 9.6 6 13a6 6 0 0 0 12 0c0-3.4-3-6.5-6-10.3Z"/></svg>
+        <div><h3>Mezcla de pintura</h3><p>Traiga la muestra o díganos el color y se lo preparamos.</p></div>
+      </div>
+      <div class="serv">
+        <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="5"/><path d="m11.5 11.5 9-9M17 6l3 3M14 9l2 2"/></svg>
+        <div><h3>Duplicado de llaves</h3><p>Mientras espera, en pocos minutos.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 4. MARCAS ===================== -->
+<!-- Deje solo las marcas que de verdad maneja. Si la marca le da permiso,
+     puede cambiar el nombre por su logo. -->
+<section class="marcas" id="marcas">
+  <div class="envoltura">
+    <div class="cabeza-seccion">
+      <span class="antetitulo">Calidad que ya conoce</span>
+      <h2>Marcas que manejamos</h2>
+    </div>
+    <ul>
+      <li>Argos</li>
+      <li>Pavco</li>
+      <li>Pintuco</li>
+      <li>Corona</li>
+      <li>Gerfor</li>
+      <li>[MARCA]</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===================== 5. COTIZA TU OBRA ===================== -->
+<section class="cotiza" id="cotiza">
+  <div class="envoltura cotiza-rejilla">
+    <div>
+      <span class="antetitulo">Rápido y sin compromiso</span>
+      <h2>Cotice su obra por WhatsApp</h2>
+      <p class="intro">No tiene que venir hasta el local para saber cuánto le sale. Así funciona:</p>
+      <ol class="pasos">
+        <li><b>1</b><span>Escríbanos o tómele foto a su lista de materiales.</span></li>
+        <li><b>2</b><span>Le respondemos con precios y lo que haya disponible.</span></li>
+        <li><b>3</b><span>Pasa a recoger o se lo llevamos a la casa o a la obra.</span></li>
+      </ol>
+    </div>
+    <form class="form" id="form-cotiza" novalidate>
+      <div>
+        <label for="nombre">Su nombre</label>
+        <input id="nombre" name="nombre" type="text" autocomplete="given-name" placeholder="Ej.: Don Jairo">
+      </div>
+      <div>
+        <label for="lugar">Barrio o vereda</label>
+        <input id="lugar" name="lugar" type="text" placeholder="Ej.: vereda La Albania">
+      </div>
+      <div>
+        <label for="pedido">¿Qué necesita?</label>
+        <textarea id="pedido" name="pedido" placeholder="Ej.: 10 bultos de cemento, 20 varillas de 1/2, 1 galón de vinilo blanco"></textarea>
+        <small>Si prefiere, deje esto vacío y en el chat nos manda la foto de la lista.</small>
+      </div>
+      <p id="aviso-form" role="status" hidden></p>
+      <button class="boton boton-wa" type="submit">
+        <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.4Z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8a4 4 0 0 1-2.1-2.1l.8-1-1-2Z"/></svg>
+        Enviar cotización por WhatsApp
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- ===================== 6. UBICACIÓN Y HORARIOS ===================== -->
+<section id="ubicacion">
+  <div class="envoltura">
+    <div class="cabeza-seccion">
+      <span class="antetitulo">Venga a vernos</span>
+      <h2>Dónde estamos</h2>
+    </div>
+    <div class="ubic-rejilla">
+      <div class="tarjeta mapa">
+        <svg class="pin" aria-hidden="true" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <div>
+          <p class="direccion">[DIRECCIÓN], Mariquita</p>
+          <p class="referencia">[REFERENCIA, ej.: diagonal al parque principal]</p>
+        </div>
+        <div class="botones">
+          <a class="boton boton-wa js-mapa" href="https://www.google.com/maps/search/?api=1&amp;query=Ferreter%C3%ADa%20El%20Maestro%20Mariquita%20Tolima" target="_blank" rel="noopener">Cómo llegar</a>
+          <a class="boton boton-borde js-resenas" href="https://www.google.com/maps/search/?api=1&amp;query=Ferreter%C3%ADa%20El%20Maestro%20Mariquita%20Tolima" target="_blank" rel="noopener">Ver en Google</a>
+        </div>
+      </div>
+      <div class="tarjeta">
+        <h3><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Horario</h3>
+        <table class="horario" id="horario">
+          <tbody>
+            <tr data-dias="1"><th scope="row">Lunes</th><td>[7:00 a.m. – 6:00 p.m.]</td></tr>
+            <tr data-dias="2"><th scope="row">Martes</th><td>[7:00 a.m. – 6:00 p.m.]</td></tr>
+            <tr data-dias="3"><th scope="row">Miércoles</th><td>[7:00 a.m. – 6:00 p.m.]</td></tr>
+            <tr data-dias="4"><th scope="row">Jueves</th><td>[7:00 a.m. – 6:00 p.m.]</td></tr>
+            <tr data-dias="5"><th scope="row">Viernes</th><td>[7:00 a.m. – 6:00 p.m.]</td></tr>
+            <tr data-dias="6"><th scope="row">Sábado</th><td>[7:00 a.m. – 6:00 p.m.]</td></tr>
+            <tr data-dias="0"><th scope="row">Domingo y festivos</th><td>[8:00 a.m. – 12:00 m.]</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 7. CONFIANZA LOCAL ===================== -->
+<!-- Cambie los recuadros por fotos REALES del local y del equipo.
+     Testimonios: solo de clientes reales y con su permiso; si no tiene, borre el bloque. -->
+<section class="confianza" id="nosotros">
+  <div class="envoltura">
+    <div class="confianza-rejilla">
+      <div>
+        <span class="antetitulo">Gente del pueblo</span>
+        <div class="cifra">[AÑOS] años</div>
+        <h2>atendiendo a Mariquita</h2>
+        <p class="intro">Aquí lo atiende gente que conoce el pueblo, las veredas y las obras de la zona. Venga, pregunte sin pena y le ayudamos a escoger lo que de verdad necesita.</p>
+      </div>
+      <div class="fotos">
+        <div class="foto ancha">Foto de la fachada del local</div>
+        <div class="foto">Foto del equipo</div>
+        <div class="foto">Foto de adentro del local</div>
+      </div>
+    </div>
+    <div class="testimonios">
+      <figure class="testimonio">
+        <blockquote>“[Comentario real de un cliente]”</blockquote>
+        <figcaption>[Nombre], [maestro de obra / vereda]</figcaption>
+      </figure>
+      <figure class="testimonio">
+        <blockquote>“[Comentario real de un cliente]”</blockquote>
+        <figcaption>[Nombre], [barrio]</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="envoltura">
+    <strong>Ferretería El Maestro</strong>
+    <span>[DIRECCIÓN], Mariquita, Tolima · WhatsApp <span class="js-tel-texto">[NÚMERO]</span></span>
+    <div class="enlaces">
+      <a class="js-resenas" href="https://www.google.com/maps/search/?api=1&amp;query=Ferreter%C3%ADa%20El%20Maestro%20Mariquita%20Tolima" target="_blank" rel="noopener">Déjenos su reseña en Google</a>
+      <a href="[ENLACE FACEBOOK]" target="_blank" rel="noopener">Facebook</a>
+      <a href="[ENLACE INSTAGRAM]" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp, visible todo el tiempo -->
+<a class="wa-flotante js-wa" data-msg="Hola Maestro, quiero preguntar por un material." href="#cotiza" aria-label="Escribir por WhatsApp a Ferretería El Maestro">
+  <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.4Z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8a4 4 0 0 1-2.1-2.1l.8-1-1-2Z"/></svg>
+  WhatsApp
+</a>
+
+<script>
+/* ======== DATOS DEL NEGOCIO: cambie solo esto ======== */
+var DATOS = {
+  // Número de WhatsApp con indicativo 57, sin espacios ni signos. Ej.: "573001234567"
+  whatsapp: "",
+  // Número para llamar, como quiere que se vea. Ej.: "300 123 4567"
+  telefonoVisible: "",
+  // Enlace de su perfil de Google Business (botón "Ver en Google" y reseñas). Opcional.
+  googleBusiness: ""
+};
+/* ====================================================== */
+
+(function () {
+  var numero = DATOS.whatsapp.replace(/\D/g, "");
+
+  function enlaceWa(msg) {
+    return "https://wa.me/" + numero + "?text=" + encodeURIComponent(msg);
+  }
+
+  if (numero) {
+    document.querySelectorAll(".js-wa").forEach(function (a) {
+      a.href = enlaceWa(a.getAttribute("data-msg") || "Hola Maestro");
+      a.target = "_blank";
+      a.rel = "noopener";
+    });
+    document.querySelectorAll(".js-tel").forEach(function (a) {
+      a.href = "tel:+" + numero;
+    });
+  }
+  if (DATOS.telefonoVisible) {
+    document.querySelectorAll(".js-tel-texto").forEach(function (s) {
+      s.textContent = DATOS.telefonoVisible;
+    });
+  }
+  if (DATOS.googleBusiness) {
+    document.querySelectorAll(".js-resenas").forEach(function (a) {
+      a.href = DATOS.googleBusiness;
+    });
+  }
+
+  // Resalta el día de hoy en el horario
+  var hoy = new Date().getDay();
+  var fila = document.querySelector('#horario tr[data-dias="' + hoy + '"]');
+  if (fila) fila.className = "hoy";
+
+  // Formulario: arma el mensaje y abre WhatsApp
+  var form = document.getElementById("form-cotiza");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var nombre = form.nombre.value.trim();
+    var lugar = form.lugar.value.trim();
+    var pedido = form.pedido.value.trim();
+    var msg = "Hola Maestro" + (nombre ? ", soy " + nombre : "") + ". Quiero cotizar";
+    msg += pedido ? ":\n" + pedido : " unos materiales (le mando la foto de la lista).";
+    if (lugar) msg += "\nEs para " + lugar + ".";
+    if (numero) {
+      window.location.href = enlaceWa(msg);
+    } else {
+      var aviso = document.getElementById("aviso-form");
+      aviso.textContent = "Vista previa: aquí se abriría WhatsApp con este mensaje → " + msg;
+      aviso.hidden = false;
+    }
+  });
+})();
+</script>
+</body>
+</html>

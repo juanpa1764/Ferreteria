@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ferretería El Maestro</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Ferretería El Maestro en Mariquita, Tolima. Plomería, acabados, construcción, eléctricos, pinturas, herramienta y agro. Lo asesoramos y se lo llevamos a Mariquita, Honda, Fresno, Armero y Lérida. Pida por WhatsApp.">
+<meta name="theme-color" content="#197DDB">
+<meta property="og:title" content="Ferretería El Maestro · Mariquita, Tolima">
+<meta property="og:description" content="Lo asesoramos y se lo llevamos. Pida por WhatsApp.">
+<meta property="og:image" content="logo.webp">
+<link rel="icon" href="icono.png">
+<link rel="apple-touch-icon" href="mascota.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;1,800&display=swap">
+
+<!-- Ficha del negocio para Google. Complete lo que está entre corchetes
+     y que coincida con su perfil de Google Business. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HardwareStore",
+  "name": "Ferretería El Maestro",
+  "legalName": "Ferretería El Maestro S.A.S.",
+  "image": "logo.webp",
+  "telephone": "+57 322 743 1738",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Carrera 6 # 7-72",
+    "addressLocality": "Mariquita",
+    "addressRegion": "Tolima",
+    "addressCountry": "CO"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 5.197328, "longitude": -74.893393 },
+  "hasMap": "https://www.google.com/maps/place/Ferreter%C3%ADa+El+Maestro/@5.197328,-74.893393,17z/data=!3m1!4b1!4m6!3m5!1s0x8e40b53ce78a85b5:0x3297840c81dd9a47!8m2!3d5.197328!4d-74.893393!16s%2Fg%2F11x0pvz5ry",
+  "areaServed": ["Mariquita", "Honda", "Fresno", "Armero", "Lérida"],
+  "openingHours": ["Mo-Fr 07:30-18:00", "Sa 08:00-17:00", "Su 09:00-13:00"],
+  "sameAs": ["https://www.instagram.com/ferreteriaelmaestro2024/"]
+}
+</script>
+
+<style>
+/* Diseño: celular primero; franjas a todo lo ancho con el contenido centrado.
+   Guía de marca El Maestro: 60 % blanco/claro · 25 % naranja + azul · 15 % negro.
+   Una sola apariencia clara: el logo está hecho para fondos claros. */
+:root{
+  --naranja:#F58634;      /* Naranja El Maestro: botones, llamados */
+  --naranja-vivo:#FE7501; /* acento */
+  --azul:#197DDB;         /* Azul El Maestro: fondos, franjas */
+  --azul-overol:#4068B0;  /* Azul overol: encabezados pequeños, enlaces */
+  --negro:#201E1E;        /* títulos y texto */
+  --blanco:#FFFFFF;
+  --gris:#C8C8C8;         /* Gris herramienta: líneas */
+  --gris-suave:#EFEFEF;   /* Gris herramienta aclarado: fondos suaves */
+  --texto-2:#4A4646;
+  --titulos:"Montserrat","Arial Black",Arial,sans-serif;
+  --cuerpo:"Montserrat","Open Sans","Segoe UI",Roboto,Arial,sans-serif;
+  --radio:14px;
+  color-scheme:light;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--blanco);color:var(--negro);font-family:var(--cuerpo);font-weight:500;font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--azul-overol)}
+:focus-visible{outline:3px solid var(--naranja-vivo);outline-offset:3px;border-radius:6px}
+
+.envoltura{max-width:1120px;margin-inline:auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+section{padding-block:56px}
+h1,h2,h3{font-family:var(--titulos);margin:0;text-wrap:balance}
+h2{font-size:clamp(28px,6.5vw,42px);font-weight:800;font-style:italic;line-height:1.05;letter-spacing:-.5px;text-transform:uppercase}
+h3{font-weight:800}
+.antetitulo{display:inline-block;font-size:13px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--azul-overol);margin-bottom:10px}
+.intro{color:var(--texto-2);max-width:60ch;margin:12px 0 0}
+.cabeza{margin-bottom:28px}
+
+/* ---------- Botones: siempre naranja (guía de marca) ---------- */
+.botones{display:flex;flex-wrap:wrap;gap:12px}
+.boton{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:14px 22px;border-radius:12px;font-family:var(--titulos);font-weight:800;font-size:18px;text-decoration:none;border:0;cursor:pointer;flex:1 1 220px;transition:transform .15s ease, box-shadow .15s ease}
+.boton:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(32,30,30,.2)}
+.boton svg{flex:none}
+.boton-wa{background:var(--naranja);color:var(--negro)}
+.boton-blanco{background:var(--blanco);color:var(--negro)}
+.boton-borde{background:transparent;color:var(--negro);border:2px solid var(--negro)}
+@media (prefers-reduced-motion: reduce){.boton{transition:none}.boton:hover{transform:none}}
+
+/* ---------- Portada ---------- */
+.portada{background:var(--azul);color:var(--blanco)}
+/* Barra blanca con el logo horizontal. Margen libre >= alto de la "E" (~36 % del alto del logo) */
+.barra{background:var(--blanco)}
+.barra .envoltura{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:18px}
+.barra img{height:44px;width:auto;aspect-ratio:900/200}
+.barra a.mini{display:none}
+.portada-rejilla{display:grid;gap:22px;align-items:center;padding-block:32px 40px}
+/* Mascota sobre azul: siempre dentro de un círculo blanco */
+.mascota-caja{display:none}
+.ubic{display:inline-flex;align-items:center;gap:8px;background:var(--azul-overol);padding:6px 14px;border-radius:999px;font-weight:700;font-size:14px}
+.portada h1{font-size:clamp(38px,10.5vw,70px);font-weight:800;font-style:italic;line-height:.98;letter-spacing:-1px;text-transform:uppercase;margin-top:14px}
+.portada p.lema{font-size:19px;font-weight:700;max-width:36ch;margin:16px 0 24px}
+@media (min-width:860px){
+  .barra img{height:64px}
+  .barra .envoltura{padding-block:24px}
+  .barra a.mini{display:inline-flex;flex:none;min-height:48px;padding:10px 20px;font-size:16px}
+  .portada-rejilla{grid-template-columns:1.4fr 1fr;padding-block:56px 64px;gap:40px}
+  .mascota-caja{display:grid;place-items:center;justify-self:end;width:340px;height:340px;border-radius:50%;background:var(--blanco)}
+  .mascota-caja img{width:270px;height:auto}
+}
+.franja{background:var(--negro);color:var(--blanco)}
+.franja ul{list-style:none;margin-block:0;padding-block:14px;display:flex;flex-wrap:wrap;gap:10px 28px;font-weight:700;font-size:15px}
+.franja li{display:flex;align-items:center;gap:8px}
+.franja svg{color:var(--naranja)}
+
+/* ---------- Por qué El Maestro ---------- */
+.porque-rejilla{display:grid;gap:28px}
+@media (min-width:900px){.porque-rejilla{grid-template-columns:1fr 1.3fr;align-items:center}}
+.trayectoria{display:flex;align-items:flex-end;gap:16px;margin-top:22px}
+.cifra{font-family:var(--titulos);font-size:clamp(64px,16vw,104px);font-weight:800;font-style:italic;line-height:.85;color:var(--azul)}
+.trayectoria p{margin:0;font-weight:700;max-width:22ch}
+.razones{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:560px){.razones{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.razon{border:2px solid var(--gris);border-radius:var(--radio);padding:20px;min-width:0}
+.razon .ico{width:48px;height:48px;border-radius:50%;background:var(--azul);color:var(--blanco);display:grid;place-items:center;margin-bottom:12px}
+.razon h3{font-size:18px;margin-bottom:4px}
+.razon p{margin:0;font-size:15px;color:var(--texto-2)}
+
+/* ---------- Líneas de producto ---------- */
+.lineas{background:var(--gris-suave)}
+.rejilla-lineas{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:860px){.rejilla-lineas{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}}
+.linea{background:var(--blanco);border-radius:var(--radio);padding:18px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.linea .ico{width:48px;height:48px;border-radius:12px;background:var(--azul);color:var(--blanco);display:grid;place-items:center}
+.linea h3{font-size:18px}
+.linea p{margin:0;font-size:14px;color:var(--texto-2);line-height:1.4}
+.linea.destacada{grid-column:1 / -1;background:var(--azul);color:var(--blanco);padding:24px 22px;display:grid;gap:14px}
+.linea.destacada .ico{background:var(--blanco);color:var(--azul)}
+.linea.destacada h3{font-size:clamp(24px,5vw,32px);font-style:italic;text-transform:uppercase}
+.linea.destacada p{color:var(--blanco);font-size:16px}
+.etiqueta{justify-self:start;background:var(--naranja);color:var(--negro);font-weight:800;font-size:13px;letter-spacing:1px;text-transform:uppercase;padding:5px 12px;border-radius:999px}
+.linea.destacada ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.linea.destacada li{background:var(--azul-overol);border-radius:8px;padding:6px 12px;font-weight:700;font-size:15px}
+@media (min-width:860px){
+  .linea.destacada{grid-column:span 2;grid-row:span 2;align-content:start}
+}
+
+/* ---------- Para quién ---------- */
+.publico{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:860px){.publico{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}}
+.perfil{border:2px solid var(--gris);border-radius:var(--radio);padding:22px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.perfil .ico{color:var(--azul)}
+.perfil h3{font-size:22px;font-style:italic;text-transform:uppercase}
+.perfil p{margin:0;color:var(--texto-2)}
+.perfil a{margin-top:auto;font-weight:800;color:var(--azul-overol)}
+
+/* ---------- Cotice (fondo azul) ---------- */
+.cotiza{background:var(--azul);color:var(--blanco)}
+.cotiza .antetitulo{color:var(--blanco)}
+.cotiza .intro{color:var(--blanco)}
+.cotiza-rejilla{display:grid;gap:28px}
+@media (min-width:860px){.cotiza-rejilla{grid-template-columns:1fr 1fr;align-items:start}}
+.pasos{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:14px;font-weight:700}
+.pasos li{display:flex;gap:14px;align-items:flex-start}
+.pasos b{flex:none;width:34px;height:34px;border-radius:50%;background:var(--blanco);color:var(--azul-overol);display:grid;place-items:center;font-weight:800}
+.form{background:var(--blanco);color:var(--negro);border-radius:18px;padding:22px;display:grid;gap:14px}
+.form label{font-weight:700;font-size:15px;display:block;margin-bottom:6px}
+.form input,.form textarea{width:100%;font:inherit;font-size:16px;color:var(--negro);background:var(--blanco);border:2px solid var(--gris);border-radius:10px;padding:12px 14px}
+.form textarea{min-height:110px;resize:vertical}
+.form input::placeholder,.form textarea::placeholder{color:#76706C}
+.form input:focus,.form textarea:focus{border-color:var(--azul);outline:none}
+.form small{color:var(--texto-2);font-size:13px}
+#aviso-form{margin:0;background:var(--gris-suave);border-radius:10px;padding:12px;font-size:14px;white-space:pre-line}
+
+/* ---------- Cobertura ---------- */
+.cobertura-rejilla{display:grid;gap:24px}
+@media (min-width:860px){.cobertura-rejilla{grid-template-columns:1fr 1fr;align-items:center}}
+.pueblos{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.pueblos li{font-family:var(--titulos);font-weight:800;font-style:italic;text-transform:uppercase;font-size:20px;padding:12px 18px;border-radius:10px;border:2px solid var(--gris)}
+.pueblos li.base{background:var(--azul);border-color:var(--azul);color:var(--blanco)}
+.nota{margin:16px 0 0;color:var(--texto-2)}
+
+/* ---------- Marcas ---------- */
+.marcas{background:var(--gris-suave)}
+.marcas ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.marcas li{font-family:var(--titulos);font-weight:800;font-style:italic;font-size:20px;letter-spacing:.5px;text-transform:uppercase;padding:12px 20px;background:var(--blanco);border:2px solid var(--gris);border-radius:10px}
+.marcas li.mas{background:transparent;border-style:dashed;color:var(--texto-2);font-style:normal;font-size:16px;text-transform:none;letter-spacing:0;display:flex;align-items:center}
+
+/* ---------- Ubicación ---------- */
+.ubic-rejilla{display:grid;gap:20px}
+@media (min-width:860px){.ubic-rejilla{grid-template-columns:1.2fr 1fr}}
+.tarjeta{border:2px solid var(--gris);border-radius:18px;padding:22px;min-width:0}
+.tarjeta h3{font-size:20px;margin-bottom:10px;display:flex;align-items:center;gap:10px}
+.tarjeta h3 svg{color:var(--azul)}
+.mapa{display:flex;flex-direction:column;gap:12px;min-height:260px;text-decoration:none;color:var(--negro);background:
+  repeating-linear-gradient(90deg, transparent 0 46px, rgba(200,200,200,.55) 46px 48px),
+  repeating-linear-gradient(0deg, transparent 0 46px, rgba(200,200,200,.55) 46px 48px),
+  linear-gradient(160deg, transparent 55%, rgba(25,125,219,.16) 55% 62%, transparent 62%);
+  background-color:var(--gris-suave)}
+.mapa .pin{align-self:center;margin-block:8px auto;width:96px;height:96px;border-radius:50%;background:var(--blanco);display:grid;place-items:center}
+.mapa .pin img{width:78px;height:auto}
+.direccion{font-size:20px;font-weight:800;margin:0}
+.coords{margin:4px 0 0;color:var(--texto-2);font-size:14px;font-variant-numeric:tabular-nums}
+.horario{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.horario th,.horario td{padding:10px 0;border-bottom:1px solid var(--gris);text-align:left}
+.horario td{text-align:right;font-weight:700;white-space:nowrap;padding-left:12px}
+
+/* ---------- Pie ---------- */
+footer{background:var(--negro);color:#E4E1DE;padding-block:36px 110px;font-size:15px}
+footer .envoltura{display:grid;gap:14px}
+footer .marca-pie{color:var(--blanco);font-family:var(--titulos);font-size:22px;font-style:italic;font-weight:800;text-transform:uppercase}
+footer a{color:var(--naranja)}
+footer .enlaces{display:flex;flex-wrap:wrap;gap:8px 20px}
+footer .legal{color:#A9A4A0;font-size:13px}
+
+/* ---------- WhatsApp flotante (naranja: es un botón) ---------- */
+.wa-flotante{position:fixed;right:calc(16px + env(safe-area-inset-right, 0px));bottom:calc(16px + env(safe-area-inset-bottom, 0px));z-index:50;display:inline-flex;align-items:center;gap:10px;background:var(--naranja);color:var(--negro);font-family:var(--titulos);font-weight:800;font-size:17px;text-decoration:none;padding:12px 20px 12px 14px;border-radius:999px;box-shadow:0 8px 24px rgba(32,30,30,.3);min-height:56px;border:3px solid var(--blanco)}
+.wa-flotante:hover{background:var(--naranja-vivo)}
+</style>
+</head>
+<body>
+
+<!-- ===================== 1. PORTADA ===================== -->
+<header class="portada">
+  <div class="barra">
+    <div class="envoltura">
+      <img src="horizontal.webp" width="900" height="200" alt="Ferretería El Maestro" fetchpriority="high">
+      <a class="boton boton-wa mini js-wa" data-msg="Hola Maestro, quiero hacer un pedido." href="#cotice">Pida por WhatsApp</a>
+    </div>
+  </div>
+  <div class="envoltura portada-rejilla">
+    <div>
+      <span class="ubic">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        Mariquita, Tolima
+      </span>
+      <h1>Todo para construir y reparar en Mariquita</h1>
+      <p class="lema">Lo asesoramos, le despachamos rápido y se lo llevamos. Escríbanos y le cotizamos de una.</p>
+      <div class="botones">
+        <a class="boton boton-wa js-wa" data-msg="Hola Maestro, quiero hacer un pedido." href="#cotice">
+          <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.4Z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8a4 4 0 0 1-2.1-2.1l.8-1-1-2Z"/></svg>
+          Pida por WhatsApp
+        </a>
+        <a class="boton boton-blanco js-tel" href="#ubicacion">
+          <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg>
+          Llamar
+        </a>
+      </div>
+    </div>
+    <div class="mascota-caja"><img src="mascota.webp" width="320" height="283" alt="" loading="lazy"></div>
+  </div>
+  <div class="franja">
+    <ul class="envoltura">
+      <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>Domicilios en Mariquita y la zona</li>
+      <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>Despacho ágil</li>
+      <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Más de 20 años de tradición familiar</li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== 2. POR QUÉ EL MAESTRO ===================== -->
+<section id="por-que">
+  <div class="envoltura porque-rejilla">
+    <div>
+      <span class="antetitulo">Por qué El Maestro</span>
+      <h2>El maestro del barrio que sabe y le ayuda</h2>
+      <p class="intro">Venimos de una familia ferretera. Hace 2 años y medio abrimos nuestra propia ferretería en Mariquita, con todo lo aprendido detrás del mostrador.</p>
+      <div class="trayectoria">
+        <span class="cifra">+20</span>
+        <p>años de tradición familiar en el oficio</p>
+      </div>
+    </div>
+    <div class="razones">
+      <div class="razon">
+        <span class="ico"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg></span>
+        <h3>Asesoría de verdad</h3>
+        <p>Cuéntenos qué va a arreglar y le decimos qué lleva, sin venderle de más.</p>
+      </div>
+      <div class="razon">
+        <span class="ico"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span>
+        <h3>Despacho ágil</h3>
+        <p>Lo atendemos rápido para que no pierda la jornada esperando.</p>
+      </div>
+      <div class="razon">
+        <span class="ico"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span>
+        <h3>Se lo llevamos</h3>
+        <p>Domicilios a la casa, a la obra o a la finca en Mariquita y la zona.</p>
+      </div>
+      <div class="razon">
+        <span class="ico"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.4Z"/></svg></span>
+        <h3>Pedidos por WhatsApp</h3>
+        <p>Mande su lista o la foto y le cotizamos sin que tenga que venir.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 3. LÍNEAS DE PRODUCTO ===================== -->
+<section class="lineas" id="productos">
+  <div class="envoltura">
+    <div class="cabeza">
+      <span class="antetitulo">Lo que encuentra aquí</span>
+      <h2>Nuestras líneas</h2>
+    </div>
+    <div class="rejilla-lineas">
+      <article class="linea destacada">
+        <span class="etiqueta">Nuestro fuerte</span>
+        <span class="ico"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6v6h6v6"/><path d="M14 16h4v4h-4zM2 4h2M10 2v2"/></svg></span>
+        <h3>Plomería y acabados</h3>
+        <p>Lo que más conocemos. Le ayudamos a escoger la pieza que es, a la primera.</p>
+        <ul>
+          <li>Accesorios sanitarios</li>
+          <li>Lavamanos</li>
+          <li>Grifería</li>
+          <li>Tubería y accesorios</li>
+          <li>Estuco</li>
+        </ul>
+      </article>
+      <article class="linea">
+        <span class="ico"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10h14v11M3 10h18M8 10V6h8v4M9 14h2M13 14h2M9 17h2M13 17h2"/></svg></span>
+        <h3>Construcción</h3><p>Cemento, varilla, bloque, pegantes</p>
+      </article>
+      <article class="linea">
+        <span class="ico"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span>
+        <h3>Eléctricos</h3><p>Cable, tomas, interruptores, bombillos</p>
+      </article>
+      <article class="linea">
+        <span class="ico"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="16" height="6" rx="1.5"/><path d="M19 6h2v5h-9v3"/><rect x="10" y="14" width="4" height="8" rx="1"/></svg></span>
+        <h3>Pinturas</h3><p>Vinilos, esmaltes, brochas y rodillos</p>
+      </article>
+      <article class="linea">
+        <span class="ico"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5 5L22 14l-3 3-2.3-2.3a4 4 0 0 0-5-5L9 7l3-3z"/><path d="m9 7-7 7 3 3 7-7"/></svg></span>
+        <h3>Herramienta</h3><p>Manual y eléctrica para el oficio y la casa</p>
+      </article>
+      <article class="linea">
+        <span class="ico"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V11"/><path d="M12 11C12 6 8 4 4 4c0 5 3 7 8 7Z"/><path d="M12 14c0-4 3-6 8-6 0 4-3 6-8 6Z"/></svg></span>
+        <h3>Agro y fincas</h3><p>Mangueras, alambre, cercas, fumigación</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 4. PARA QUIÉN ===================== -->
+<section id="para-quien">
+  <div class="envoltura">
+    <div class="cabeza">
+      <span class="antetitulo">A quién atendemos</span>
+      <h2>Para la finca, la casa y la obra</h2>
+    </div>
+    <div class="publico">
+      <div class="perfil">
+        <svg class="ico" aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V11l5-4 5 4v10"/><path d="M13 21h8v-7l-4-3-4 3M7 21v-5h2v5"/><path d="M1 21h22"/></svg>
+        <h3>Fincas</h3>
+        <p>Dueños y administradores: lo de la cerca, el agua, la bodega y el mantenimiento, en un solo pedido.</p>
+        <a class="js-wa" data-msg="Hola Maestro, necesito unos materiales para la finca." href="#cotice">Pedir para la finca</a>
+      </div>
+      <div class="perfil">
+        <svg class="ico" aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9v12h14V9"/><path d="M10 21v-6h4v6"/></svg>
+        <h3>Hogar</h3>
+        <p>Si va a arreglar el baño, pintar o construir, le explicamos qué necesita y cuánto le sale.</p>
+        <a class="js-wa" data-msg="Hola Maestro, quiero arreglar algo en la casa y necesito asesoría." href="#cotice">Pedir asesoría</a>
+      </div>
+      <div class="perfil">
+        <svg class="ico" aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15a8 8 0 0 1 16 0"/><path d="M2 15h20v3H2zM10 7V4h4v3"/></svg>
+        <h3>Maestros y contratistas</h3>
+        <p>Cotizaciones de obra completas y despacho ágil para que la cuadrilla no se quede parada.</p>
+        <a class="js-wa" data-msg="Hola Maestro, quiero cotizar materiales para una obra." href="#cotice">Cotizar una obra</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== COTICE YA ===================== -->
+<section class="cotiza" id="cotice">
+  <div class="envoltura cotiza-rejilla">
+    <div>
+      <span class="antetitulo">Rápido y sin vueltas</span>
+      <h2>Cotice ya por WhatsApp</h2>
+      <p class="intro">No tiene que venir hasta el local para saber cuánto le sale.</p>
+      <ol class="pasos">
+        <li><b>1</b><span>Escríbanos o mándenos la foto de su lista.</span></li>
+        <li><b>2</b><span>Le respondemos con precios y lo que hay.</span></li>
+        <li><b>3</b><span>Pasa por el pedido o se lo llevamos.</span></li>
+      </ol>
+    </div>
+    <form class="form" id="form-cotiza" novalidate>
+      <div>
+        <label for="nombre">Su nombre</label>
+        <input id="nombre" name="nombre" type="text" autocomplete="given-name" placeholder="Ej.: Don Jairo">
+      </div>
+      <div>
+        <label for="lugar">¿Para dónde es?</label>
+        <input id="lugar" name="lugar" type="text" placeholder="Ej.: finca en la vereda, barrio, Honda…">
+      </div>
+      <div>
+        <label for="pedido">¿Qué necesita?</label>
+        <textarea id="pedido" name="pedido" placeholder="Ej.: 1 lavamanos, 1 grifería, 2 bultos de estuco"></textarea>
+        <small>También puede dejarlo vacío y mandarnos la foto de la lista en el chat.</small>
+      </div>
+      <p id="aviso-form" role="status" hidden></p>
+      <button class="boton boton-wa" type="submit">
+        <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.4Z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8a4 4 0 0 1-2.1-2.1l.8-1-1-2Z"/></svg>
+        Enviar por WhatsApp
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- ===================== 5. DOMICILIOS Y COBERTURA ===================== -->
+<section id="domicilios">
+  <div class="envoltura cobertura-rejilla">
+    <div>
+      <span class="antetitulo">Domicilios</span>
+      <h2>Se lo llevamos</h2>
+      <p class="intro">A la casa, a la obra o a la finca. Atendemos Mariquita y los municipios vecinos.</p>
+    </div>
+    <div>
+      <ul class="pueblos">
+        <li class="base">Mariquita</li>
+        <li>Honda</li>
+        <li>Fresno</li>
+        <li>Armero</li>
+        <li>Lérida</li>
+      </ul>
+      <p class="nota">Pregúntenos por WhatsApp el valor y el tiempo de entrega para su zona.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MARCAS ===================== -->
+<section class="marcas" id="marcas">
+  <div class="envoltura">
+    <div class="cabeza">
+      <span class="antetitulo">Calidad que ya conoce</span>
+      <h2>Marcas que manejamos</h2>
+    </div>
+    <ul>
+      <li>Corona</li>
+      <li>Alion</li>
+      <li>Grival</li>
+      <li>Pavco</li>
+      <li>Pegaperfecto</li>
+      <li class="mas">y muchas más</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===================== 6. UBICACIÓN Y HORARIO ===================== -->
+<section id="ubicacion">
+  <div class="envoltura">
+    <div class="cabeza">
+      <span class="antetitulo">Venga a vernos</span>
+      <h2>Dónde estamos</h2>
+    </div>
+    <div class="ubic-rejilla">
+      <div class="tarjeta mapa">
+        <span class="pin"><img src="mascota.webp" width="320" height="283" alt=""></span>
+        <div>
+          <p class="direccion">Carrera 6 # 7-72, Mariquita, Tolima</p>
+          <p class="coords">5.197328, -74.893393</p>
+        </div>
+        <div class="botones">
+          <a class="boton boton-wa" href="https://www.google.com/maps/dir/?api=1&amp;destination=5.197328,-74.893393" target="_blank" rel="noopener">Cómo llegar</a>
+          <a class="boton boton-borde js-maps" href="https://www.google.com/maps/place/Ferreter%C3%ADa+El+Maestro/@5.197328,-74.893393,17z/data=!3m1!4b1!4m6!3m5!1s0x8e40b53ce78a85b5:0x3297840c81dd9a47!8m2!3d5.197328!4d-74.893393!16s%2Fg%2F11x0pvz5ry" target="_blank" rel="noopener">Ver en Google Maps</a>
+        </div>
+      </div>
+      <div class="tarjeta">
+        <h3><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Horario</h3>
+        <table class="horario">
+          <tbody>
+            <tr><th scope="row">Lunes a viernes</th><td>7:30 a.m. – 6:00 p.m.</td></tr>
+            <tr><th scope="row">Sábado</th><td>8:00 a.m. – 5:00 p.m.</td></tr>
+            <tr><th scope="row">Domingo</th><td>9:00 a.m. – 1:00 p.m.</td></tr>
+          </tbody>
+        </table>
+        <p class="nota">Por WhatsApp le respondemos en horario de atención.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== 7. PIE ===================== -->
+<footer>
+  <div class="envoltura">
+    <span class="marca-pie">Ferretería El Maestro</span>
+    <span>Carrera 6 # 7-72, Mariquita, Tolima</span>
+    <span>WhatsApp y llamadas: <span class="js-tel-texto">322 743 1738</span></span>
+    <div class="enlaces">
+      <a class="js-wa" data-msg="Hola Maestro, quiero hacer un pedido." href="#cotice">WhatsApp</a>
+      <a class="js-instagram" href="#">Instagram</a>
+      <a class="js-facebook" href="#">Facebook</a>
+      <a class="js-maps" href="https://www.google.com/maps/place/Ferreter%C3%ADa+El+Maestro/@5.197328,-74.893393,17z/data=!3m1!4b1!4m6!3m5!1s0x8e40b53ce78a85b5:0x3297840c81dd9a47!8m2!3d5.197328!4d-74.893393!16s%2Fg%2F11x0pvz5ry" target="_blank" rel="noopener">Google Maps</a>
+    </div>
+    <span class="legal">Ferretería El Maestro S.A.S. · Mariquita, Tolima</span>
+  </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp, en toda la página -->
+<a class="wa-flotante js-wa" data-msg="Hola Maestro, quiero hacer un pedido." href="#cotice" aria-label="Pida por WhatsApp a Ferretería El Maestro">
+  <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.4Z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8a4 4 0 0 1-2.1-2.1l.8-1-1-2Z"/></svg>
+  Pida aquí
+</a>
+
+<script>
+/* ======== DATOS DEL NEGOCIO: complete solo esto ======== */
+var DATOS = {
+  whatsapp: "573227431738",          // con indicativo 57, sin espacios. Ej.: "573001234567"
+  whatsappVisible: "322 743 1738",   // como se ve. Ej.: "300 123 4567"
+  telefono: "3227431738",          // para el botón Llamar. Ej.: "3001234567" o fijo "6082520000"
+  telefonoVisible: "322 743 1738",   // como se ve. Ej.: "300 123 4567"
+  instagram: "https://www.instagram.com/ferreteriaelmaestro2024/",         // enlace completo a su Instagram
+  facebook: ""           // enlace completo a su Facebook
+};
+/* ======================================================= */
+
+(function () {
+  var wa = DATOS.whatsapp.replace(/\D/g, "");
+  var tel = DATOS.telefono.replace(/\D/g, "");
+  function enlaceWa(msg) { return "https://wa.me/" + wa + "?text=" + encodeURIComponent(msg); }
+  function cada(sel, fn) { document.querySelectorAll(sel).forEach(fn); }
+
+  if (wa) cada(".js-wa", function (a) {
+    a.href = enlaceWa(a.getAttribute("data-msg") || "Hola Maestro");
+    a.target = "_blank"; a.rel = "noopener";
+  });
+  if (tel) cada(".js-tel", function (a) { a.href = "tel:" + (tel.length === 10 ? "+57" : "+") + tel; });
+  if (DATOS.whatsappVisible) cada(".js-wa-texto", function (s) { s.textContent = DATOS.whatsappVisible; });
+  if (DATOS.telefonoVisible) cada(".js-tel-texto", function (s) { s.textContent = DATOS.telefonoVisible; });
+  [["instagram", ".js-instagram"], ["facebook", ".js-facebook"]].forEach(function (r) {
+    cada(r[1], function (a) {
+      if (DATOS[r[0]]) { a.href = DATOS[r[0]]; a.target = "_blank"; a.rel = "noopener"; }
+      else a.hidden = true;
+    });
+  });
+
+  var form = document.getElementById("form-cotiza");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var nombre = form.nombre.value.trim(), lugar = form.lugar.value.trim(), pedido = form.pedido.value.trim();
+    var msg = "Hola Maestro" + (nombre ? ", soy " + nombre : "") + ". Quiero cotizar";
+    msg += pedido ? ":\n" + pedido : " unos materiales (le mando la foto de la lista).";
+    if (lugar) msg += "\nEs para: " + lugar + ".";
+    if (wa) { window.location.href = enlaceWa(msg); return; }
+    var aviso = document.getElementById("aviso-form");
+    aviso.textContent = "Vista previa (falta el número de WhatsApp). Este es el mensaje que le llegaría:\n" + msg;
+    aviso.hidden = false;
+  });
+})();
+</script>
+</body>
+</html>

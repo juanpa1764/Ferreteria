@@ -25,7 +25,7 @@
   "name": "Ferretería El Maestro",
   "legalName": "Ferretería El Maestro S.A.S.",
   "image": "logo.webp",
-  "telephone": "+57 [TELÉFONO]",
+  "telephone": "+57 322 743 1738",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Carrera 6 # 7-72",
@@ -36,8 +36,8 @@
   "geo": { "@type": "GeoCoordinates", "latitude": 5.197328, "longitude": -74.893393 },
   "hasMap": "https://www.google.com/maps/place/Ferreter%C3%ADa+El+Maestro/@5.197328,-74.893393,17z/data=!3m1!4b1!4m6!3m5!1s0x8e40b53ce78a85b5:0x3297840c81dd9a47!8m2!3d5.197328!4d-74.893393!16s%2Fg%2F11x0pvz5ry",
   "areaServed": ["Mariquita", "Honda", "Fresno", "Armero", "Lérida"],
-  "openingHours": ["[Mo-Fr HH:MM-HH:MM]", "[Sa HH:MM-HH:MM]", "Su 09:00-13:00"],
-  "sameAs": ["[ENLACE INSTAGRAM]", "[ENLACE FACEBOOK]"]
+  "openingHours": ["Mo-Fr 07:30-18:00", "Sa 08:00-17:00", "Su 09:00-13:00"],
+  "sameAs": ["https://www.instagram.com/ferreteriaelmaestro2024/"]
 }
 </script>
 
@@ -204,7 +204,7 @@ h3{font-weight:800}
 .coords{margin:4px 0 0;color:var(--texto-2);font-size:14px;font-variant-numeric:tabular-nums}
 .horario{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
 .horario th,.horario td{padding:10px 0;border-bottom:1px solid var(--gris);text-align:left}
-.horario td{text-align:right;font-weight:700}
+.horario td{text-align:right;font-weight:700;white-space:nowrap;padding-left:12px}
 
 /* ---------- Pie ---------- */
 footer{background:var(--negro);color:#E4E1DE;padding-block:36px 110px;font-size:15px}
@@ -457,7 +457,7 @@ footer .legal{color:#A9A4A0;font-size:13px}
     </div>
     <div class="ubic-rejilla">
       <div class="tarjeta mapa">
-        <span class="pin"><img src="mascota.webp" width="320" height="283" alt="" loading="lazy"></span>
+        <span class="pin"><img src="mascota.webp" width="320" height="283" alt=""></span>
         <div>
           <p class="direccion">Carrera 6 # 7-72, Mariquita, Tolima</p>
           <p class="coords">5.197328, -74.893393</p>
@@ -471,8 +471,8 @@ footer .legal{color:#A9A4A0;font-size:13px}
         <h3><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Horario</h3>
         <table class="horario">
           <tbody>
-            <tr><th scope="row">Lunes a viernes</th><td>[HORARIO]</td></tr>
-            <tr><th scope="row">Sábado</th><td>[HORARIO]</td></tr>
+            <tr><th scope="row">Lunes a viernes</th><td>7:30 a.m. – 6:00 p.m.</td></tr>
+            <tr><th scope="row">Sábado</th><td>8:00 a.m. – 5:00 p.m.</td></tr>
             <tr><th scope="row">Domingo</th><td>9:00 a.m. – 1:00 p.m.</td></tr>
           </tbody>
         </table>
@@ -489,7 +489,7 @@ footer .legal{color:#A9A4A0;font-size:13px}
   <div class="envoltura">
     <span class="marca-pie">Ferretería El Maestro</span>
     <span>Carrera 6 # 7-72, Mariquita, Tolima</span>
-    <span>WhatsApp <span class="js-wa-texto">[WHATSAPP]</span> · Teléfono <span class="js-tel-texto">[TELÉFONO]</span></span>
+    <span>WhatsApp y llamadas: <span class="js-tel-texto">322 743 1738</span></span>
     <div class="enlaces">
       <a class="js-wa" data-msg="Hola Maestro, quiero hacer un pedido." href="#cotice">WhatsApp</a>
       <a class="js-instagram" href="#">Instagram</a>
@@ -509,11 +509,11 @@ footer .legal{color:#A9A4A0;font-size:13px}
 <script>
 /* ======== DATOS DEL NEGOCIO: complete solo esto ======== */
 var DATOS = {
-  whatsapp: "",          // con indicativo 57, sin espacios. Ej.: "573001234567"
-  whatsappVisible: "",   // como se ve. Ej.: "300 123 4567"
-  telefono: "",          // para el botón Llamar. Ej.: "3001234567" o fijo "6082520000"
-  telefonoVisible: "",   // como se ve. Ej.: "300 123 4567"
-  instagram: "",         // enlace completo a su Instagram
+  whatsapp: "573227431738",          // con indicativo 57, sin espacios. Ej.: "573001234567"
+  whatsappVisible: "322 743 1738",   // como se ve. Ej.: "300 123 4567"
+  telefono: "3227431738",          // para el botón Llamar. Ej.: "3001234567" o fijo "6082520000"
+  telefonoVisible: "322 743 1738",   // como se ve. Ej.: "300 123 4567"
+  instagram: "https://www.instagram.com/ferreteriaelmaestro2024/",         // enlace completo a su Instagram
   facebook: ""           // enlace completo a su Facebook
 };
 /* ======================================================= */

@@ -1,17 +1,22 @@
 # Landing de Ferretería El Maestro
 
-Página de una sola pantalla, pensada primero para celular y para cargar rápido con señal débil (sin librerías; logo de 35 KB).
-Sigue la guía de marca: botones en naranja, franjas y fondos en azul, títulos en negro con Montserrat ExtraBold Italic, logo siempre sobre recuadro blanco y con margen libre.
+Página de una sola pantalla, pensada primero para celular y para cargar rápido con señal débil (sin librerías; imágenes en WebP).
+Sigue la guía de marca: botones en naranja, franjas y fondos en azul, títulos en negro con Montserrat ExtraBold Italic, logo siempre sobre blanco y con margen libre.
 
-## Qué falta completar
+## Datos ya cargados
 
-1. **Contacto**: al final de `index.html`, en el bloque `DATOS`, ponga WhatsApp, teléfono, Instagram y Facebook. Con eso se activan todos los botones. Si deja Instagram o Facebook vacíos, esos enlaces no aparecen.
-2. **Horario**: falta lunes a viernes y sábado (busque `[HORARIO]` en `index.html` y `openingHours` en la ficha para Google). Dirección (Carrera 6 # 7-72) y domingo (9:00 a.m. – 1:00 p.m.) ya están.
-3. **Ficha para Google** (bloque `application/ld+json` arriba): teléfono, dirección, horario y redes. Que coincidan con su perfil de Google Business.
-4. **Logos**: ya están `horizontal.webp` (barra superior), `mascota.webp` (portada en computador, mapa e ícono) y `logo.webp` agrupado (imagen al compartir en redes).
-5. **Fotos reales** de producto y de obra: se pueden agregar cuando las tenga.
+- Dirección: Carrera 6 # 7-72, Mariquita, Tolima (ubicación de Google Maps 5.197328, -74.893393).
+- Horario: lunes a viernes 7:30 a.m. – 6:00 p.m. · sábado 8:00 a.m. – 5:00 p.m. · domingo 9:00 a.m. – 1:00 p.m.
+- WhatsApp y teléfono: 322 743 1738.
+- Instagram: @ferreteriaelmaestro2024.
+- Cobertura: Mariquita, Honda, Fresno, Armero, Lérida. Marcas: Corona, Alion, Grival, Pavco, Pegaperfecto.
 
-Ya está configurado: ubicación de Google Maps (5.197328, -74.893393), botón "Cómo llegar", cobertura (Mariquita, Honda, Fresno, Armero, Lérida) y marcas (Corona, Alion, Grival, Pavco, Pegaperfecto).
+Para cambiar contacto o redes, edite el bloque `DATOS` al final de `index.html`. Facebook está vacío, así que ese enlace no aparece; si lo agrega, se muestra solo.
+Si cambia el horario o la dirección, cámbielo también en el bloque `application/ld+json` (arriba) y en su perfil de Google Business, para que coincidan.
+
+## Pendiente opcional
+
+- Fotos reales de producto y de obra.
 
 ## Cómo publicarla gratis
 
